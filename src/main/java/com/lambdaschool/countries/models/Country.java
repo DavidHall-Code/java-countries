@@ -1,6 +1,11 @@
 package com.lambdaschool.countries.models;
 
-import javax.persistence.*;
+import javax.persistence.Entity;
+import javax.persistence.Table;
+import javax.persistence.GeneratedValue;
+import javax.persistence.GenerationType;
+import javax.persistence.Id;
+
 
 @Entity
 @Table(name = "countries")
@@ -21,6 +26,11 @@ public class Country
         this.population = population;
         this.landmasskm2 = landmasskm2;
         this.medianage = medianage;
+    }
+
+    public Country()
+    {
+        //required by jpa
     }
 
     public long getCountryid()
