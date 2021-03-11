@@ -1,0 +1,15 @@
+package com.lambdaschool.countries;
+
+import org.junit.jupiter.api.Test;
+import org.springframework.boot.test.context.SpringBootTest;
+
+@SpringBootTest
+class JavaCountrySearchApplicationTests
+{
+
+    @Test
+    void contextLoads()
+    {
+    }
+
+}
